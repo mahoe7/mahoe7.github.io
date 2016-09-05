@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: LFG
+image: images/LFG.jpg
+title: LF>Group
 permalink: projects/lfg
 date: 2015
 labels:
