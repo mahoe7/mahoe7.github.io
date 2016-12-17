@@ -2,7 +2,7 @@
   "basics": {
     "name": "Michael Hoe",
     "label": "Student",
-    "picture": "mahoe7.github.io/images/Aviary Photo_131166281005894729.png",
+    "picture": "../images/Aviary Photo_131166281005894729.png",
     "email": "mahoe7@hawaii.edu",
     "phone": "808-636-8370",
     "website": "https://mahoe7.github.io",
