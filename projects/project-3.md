@@ -1,60 +1,22 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
-date: 2014
+image: images/manoakinegrindz.jpg
+title: Manoa Kine Grindz
+permalink: projects/mkg
+date: 2016
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Javascript
+  - Meteor
+summary: A responsive web app to help students find where to go to fit their cravings
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui image" src="{{ site.baseurl }}/images/mkgFront.jpg">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+Here is the link to the website: https://manoakinegrindz.meteorapp.com
 
-To give you a flavor of the game, here is an excerpt from one run:
-
-<hr>
-
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
-
+Manoa Kine Grindz is a web app that me and my team built as a final project for ICS314. We wanted to create an app where people could easily find where to go if they wanted to get food of a certain cuisine on the University of Hawaii at Manoa campus. Unfortunately, due to getting caught in development hell, we could not churn out a fully functional or even decent website.
+<br>
+My contributions to the project was creating the overall layout, some of the functionality, and the direction to take the website in. From this experience, even though I learned it too late, I now know when to take a project by the reins and to do the major things myself. However, a giant obstacle I encountered was the lack of direction for the project. As we worked on it, we realized that the initial functions that we wanted were all obsolete or lacking. Most of the food vendors on campus did not change menu or locations, and the only ones that did change their menu were The Market, a small convenience store near the dorms, and the dorm cafeterias, who had their own online resource. As such, we sought to implement a changing menu based on the user's interest of what they do and do not like to eat, but even then it became a moot point as the only time it would prove useful is if the dorm cafeterias or The Market would serve something they liked. Overall, with the limited time we had, we could not settle on a solid direction for the website.
+<br>
+Here is the link to the GitHub page documenting it: https://manoa-kine-grindz.github.io/.
